@@ -1,0 +1,42 @@
+.form_cont {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  margin: auto;
+  gap: 1rem;
+}
+
+.form_cont > form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.form_cont form input {
+  background-color: lightgray;
+  padding: 1rem;
+  font-size: 20px;
+  border-radius: 5px;
+}
+
+.form_cont form textarea {
+  min-height: 10rem;
+  border: none;
+  outline: none;
+  background-color: lightgray;
+  font-size: 20px;
+  border-radius: 5px;
+  padding: 1rem;
+}
+
+.form_cont form button {
+  width: 60%;
+  margin: auto;
+  padding: 1rem 0;
+  background-color: tomato;
+  font-size: 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 600;
+  color: white;
+}

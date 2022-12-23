@@ -1,0 +1,23 @@
+section{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+}
+section > p{
+ font-size: 4rem;
+}
+section > .btn_cont{
+  display: flex;
+  gap: 2rem;
+  margin-top: 1rem;
+}
+
+.btn{
+  padding: 0.5rem 1rem;
+  background-color: gray;
+  font-size: 20px;
+  color: white;
+  cursor: pointer;
+}
