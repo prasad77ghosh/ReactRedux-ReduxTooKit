@@ -1,0 +1,11 @@
+.rct_btn {
+  display: flex;
+  margin-top: 1rem;
+  gap: 0.3rem;
+}
+.reaction_btn {
+  padding: 0.3rem 0.5rem;
+  font-size: 17px;
+  cursor: pointer;
+  background-color: transparent;
+}

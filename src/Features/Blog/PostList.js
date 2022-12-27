@@ -7,6 +7,7 @@ import PostForm from "./PostForm";
 
 const PostList = () => {
   const posts = useSelector(selsectAllPost);
+  console.log(posts)
   return (
     <>
       <div className="postlist_cont">
